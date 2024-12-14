@@ -39,9 +39,9 @@ export const defaultOptions: ChatComponentOptions = {
   apiUrl: '',
   enablePromptSuggestions: true,
   promptSuggestions: [
-    'How to search and book rentals?',
-    'What is the refund policy?',
-    'How to contact a representative?',
+    'How to report on files with more than 500 versions?',
+    'What file types can be used as templates?',
+    'Can the term store column be used in Smart Records?',
   ],
   messages: [],
   strings: {
