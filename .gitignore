@@ -14,7 +14,7 @@ yarn-error.log*
 # Deployment
 *.env
 .azure
-*.pdf
+
 
 # Misc
 .DS_Store

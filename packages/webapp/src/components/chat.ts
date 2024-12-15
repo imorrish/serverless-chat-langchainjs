@@ -39,7 +39,7 @@ export const defaultOptions: ChatComponentOptions = {
   apiUrl: '',
   enablePromptSuggestions: true,
   promptSuggestions: [
-    'How to report on files with more than 500 versions?',
+    'What are the options for site permissions in smart provisioning?',
     'What file types can be used as templates?',
     'Can the term store column be used in Smart Records?',
   ],
