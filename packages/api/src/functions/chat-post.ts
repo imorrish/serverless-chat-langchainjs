@@ -15,7 +15,7 @@ import { badRequest, data, serviceUnavailable } from '../http-response.js';
 import { ollamaChatModel, ollamaEmbeddingsModel, faissStoreFolder } from '../constants.js';
 import { getAzureOpenAiTokenProvider, getCredentials } from '../security.js';
 
-const systemPrompt = `Assistant helps iWorkplace customers with questions about configurating iWorkplace products in SharePoint. Be brief in your answers. Answer only plain text, DO NOT use Markdown.
+const systemPrompt = `Assistant helps iWorkplace customers with questions about configuring iWorkplace products in SharePoint. Be brief in your answers. Answer only plain text, DO NOT use Markdown.
 Answer ONLY with information from the sources below or from Microsoft online SharePoint documentation. If there isn't enough information in the sources, say you don't know and to ask Information Leadership by logging a support ticket using the email address customersuccess@informationleadership.com. Do not generate answers that don't use the sources. If asking a clarifying question to the user would help, ask the question.
 If the user question is not in English, answer in the language used in the question.
 
